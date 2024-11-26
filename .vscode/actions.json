@@ -1,0 +1,11 @@
+[
+    {
+      "extensions": [
+        "GLOBAL"
+      ],
+      "name": "Desplegar y Construir",
+      "command": "/QOpenSys/pkgs/bin/gmake BUILDLIB=&CURLIB ERR=*EVENTF",
+      "environment": "pase",
+      "deployFirst": true
+    }
+  ]
